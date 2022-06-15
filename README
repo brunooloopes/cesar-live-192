@@ -1,0 +1,5 @@
+# Definir a versão do Python do projeto. Se possivel utilizar a última estável
+--> poetry
+    - poetry init -n
+    - poetry install
+    
