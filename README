@@ -1,5 +1,9 @@
 # Definir a versão do Python do projeto. Se possivel utilizar a última estável
---> poetry
+--> pyenv   
+    - pyenv versions
+    - pyenv local versao_instalada
+    - pyenv install versao_desejada
+
+--> poetry [x]
     - poetry init -n
     - poetry install
-    
