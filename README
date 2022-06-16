@@ -7,3 +7,19 @@
 --> poetry [x]
     - poetry init -n
     - poetry install
+    - poetry shell 
+    - poetry add --dev pytest
+    - poetry add --dev blue
+    - poetry add --dev isort
+    - poetry add --dev mkdocs
+
+--> pytest tests/
+
+--> blue cesar/cesar.py
+
+--> isort . --check
+--> isort .
+
+--> mkdocs new .
+--> mkdocs serve
+
