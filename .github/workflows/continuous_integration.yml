@@ -2,8 +2,8 @@ name: Continuous Integration
 on: [push]
 jobs:
     lint_add_test:
-    runs-on: ubuntu-latest
-    steps:
+        runs-on: ubuntu-latest
+        steps:
         - name: Set up python
           uses: actions/setup-python
           with:
