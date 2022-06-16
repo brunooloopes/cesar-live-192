@@ -2,7 +2,7 @@ from cesar.cesar import decripta, encripta
 
 
 def test_encripta_eduardo_retorna_rqhneqb():
-    assert encripta('Eduardo') == 'rqhneqb'
+    assert encripta('Eduardo') == 'rrqhneqb'
 
 
 def test_encripta_deve_retornar_minusculas():

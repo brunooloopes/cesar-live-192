@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jun 15 23:17:58 2022
+# Make data base, printed on Thu Jun 16 13:58:06 2022
 
 # Variables
 
@@ -49,7 +49,7 @@ VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_langu
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:112473
+JOURNAL_STREAM = 8:80241
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
@@ -69,21 +69,21 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1001/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 3389
+MANAGERPID = 6339
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1001/vscode-ipc-2aa42e0f-c7bd-4411-a4e6-58d75630e0b9.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1001/vscode-ipc-1fbd73dd-db09-4a37-a487-a9b25edc4620.sock
 # environment
 VSCODE_CWD = /home/bruno.lopes
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/bruno.lopes/.poetry/bin:/home/bruno.lopes/.poetry/bin:/home/bruno.lopes/.local/bin:/home/bruno.lopes/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/bruno.lopes/.pyenv/shims:/home/bruno.lopes/.poetry/bin:/home/bruno.lopes/.pyenv/bin:/home/bruno.lopes/.poetry/bin:/home/bruno.lopes/.local/bin:/home/bruno.lopes/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/1001/gnupg/S.gpg-agent:0:1
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
-SESSION_MANAGER = local/pc1705:@/tmp/.ICE-unix/3613,unix/pc1705:/tmp/.ICE-unix/3613
+SESSION_MANAGER = local/pc1705:@/tmp/.ICE-unix/6673,unix/pc1705:/tmp/.ICE-unix/6673
 # environment
 XDG_RUNTIME_DIR = /run/user/1001
 # environment
@@ -97,7 +97,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 PYENV_ROOT = /home/bruno.lopes/.pyenv
 # environment
-INVOCATION_ID = 0f5f9c2f89184eecb8b23d49ed58482d
+INVOCATION_ID = bc418f19d0d8497bb702317be82e6665
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -107,7 +107,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1001/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 11155
+GIO_LAUNCHED_DESKTOP_FILE_PID = 41848
 # automatic
 %F = $(notdir $%)
 # environment
@@ -119,13 +119,15 @@ PWD = /home/bruno.lopes/Armazem/GIT/Pessoal/cesar-live-192
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 3575
+SSH_AGENT_PID = 6635
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
 GTK_MODULES = gail:atk-bridge
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+PYENV_SHELL = zsh
 # environment
 HOME = /home/bruno.lopes
 # environment
@@ -223,9 +225,9 @@ GJS_DEBUG_OUTPUT = stderr
 # environment
 LANG = C
 # environment
-VSCODE_PID = 11155
+VSCODE_PID = 41848
 # variable set hash-table stats:
-# Load=106/1024=10%, Rehash=0, Collisions=12/131=9%
+# Load=107/1024=10%, Rehash=0, Collisions=12/132=9%
 
 # Pattern-specific Variable Values
 
@@ -291,7 +293,6 @@ sec:
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 
 lint:
@@ -320,12 +321,12 @@ install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 28 / storage = 239 B / avg = 8 B
-# current buf: size = 8162 B / used = 239 B / count = 28 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 236 B / avg = 8 B
+# current buf: size = 8162 B / used = 236 B / count = 28 / avg = 8 B
 
 # strcache performance: lookups = 43 / hit rate = 34%
 # hash-table stats:
 # Load=28/8192=0%, Rehash=0, Collisions=1/43=2%
-# Finished Make data base on Wed Jun 15 23:17:58 2022
+# Finished Make data base on Thu Jun 16 13:58:06 2022
 
  
