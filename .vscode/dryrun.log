@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/bruno.lopes/Armazem/GIT/Pessoal/cesar-live-192'
+poetry install
+make: Leaving directory '/home/bruno.lopes/Armazem/GIT/Pessoal/cesar-live-192'
+ 
