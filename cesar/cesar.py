@@ -18,8 +18,7 @@ def encripta(frase: str, rotation: int = 13):
 
 
 def decripta(frase: str, rotation: int = 13):
-    """Dencript o texto"""
-
+    """Dencript o texto."""
     dencriptado = ''
     for letra in frase:
         letra = letra.lower()
