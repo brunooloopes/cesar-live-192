@@ -19,9 +19,9 @@ def test_decripta_rqhneqb_retorna_eduardo():
 
 
 def test_decripta_deve_retornar_minusculas():
-    assert descripta('R').islower()
+    assert decripta('R').islower()
 
 
 def test_encripta_deve_preservar_os_espaços():
-    resultado = descripta('r h')
+    resultado = decripta('r h')
     assert resultado[1] == ' '

@@ -12,6 +12,8 @@
     - poetry add --dev blue
     - poetry add --dev isort
     - poetry add --dev mkdocs
+    - poetry add --dev prospector
+    - poetry add --dev pip-audit  
 
 --> pytest tests/
 
@@ -23,3 +25,6 @@
 --> mkdocs new .
 --> mkdocs serve
 
+--> prospector --with-tool pep257 passou para prospector --with-tool pydocstyle
+
+--> pip-audit 
