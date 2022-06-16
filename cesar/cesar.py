@@ -19,6 +19,7 @@ def encripta(frase: str, rotation: int = 13):
 
 def decripta(frase: str, rotation: int = 13):
     """Dencript o texto"""
+
     dencriptado = ''
     for letra in frase:
         letra = letra.lower()
@@ -34,4 +35,4 @@ def decripta(frase: str, rotation: int = 13):
 
 
 if __name__ == '__main__':
-    pass
+    print('')
