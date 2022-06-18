@@ -2,13 +2,19 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.2.1
+ 
 # Built for x86_64-pc-linux-gnu
+ 
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
+ 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+ 
 # This is free software: you are free to change and redistribute it.
+ 
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Thu Jun 16 13:58:06 2022
+# Make data base, printed on Sat Jun 18 14:06:00 2022
 
 # Variables
 
@@ -25,6 +31,7 @@ DESKTOP_SESSION = ubuntu
 # environment
 XDG_SESSION_CLASS = user
 # environment
+ 
 XDG_SESSION_TYPE = x11
 # environment
 VSCODE_LOG_NATIVE = false
@@ -49,7 +56,7 @@ VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_langu
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:80241
+JOURNAL_STREAM = 8:123364
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
@@ -69,9 +76,9 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1001/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 6339
+MANAGERPID = 3576
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1001/vscode-ipc-1fbd73dd-db09-4a37-a487-a9b25edc4620.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1001/vscode-ipc-1b9c909b-011c-45c1-8e82-237bb648083f.sock
 # environment
 VSCODE_CWD = /home/bruno.lopes
 # default
@@ -83,7 +90,7 @@ GPG_AGENT_INFO = /run/user/1001/gnupg/S.gpg-agent:0:1
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
-SESSION_MANAGER = local/pc1705:@/tmp/.ICE-unix/6673,unix/pc1705:/tmp/.ICE-unix/6673
+SESSION_MANAGER = local/pc1705:@/tmp/.ICE-unix/3921,unix/pc1705:/tmp/.ICE-unix/3921
 # environment
 XDG_RUNTIME_DIR = /run/user/1001
 # environment
@@ -97,7 +104,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 PYENV_ROOT = /home/bruno.lopes/.pyenv
 # environment
-INVOCATION_ID = bc418f19d0d8497bb702317be82e6665
+INVOCATION_ID = f6e3cb99dcba459fa3d0c1961c6289d0
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -107,7 +114,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1001/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 41848
+GIO_LAUNCHED_DESKTOP_FILE_PID = 25254
 # automatic
 %F = $(notdir $%)
 # environment
@@ -119,7 +126,7 @@ PWD = /home/bruno.lopes/Armazem/GIT/Pessoal/cesar-live-192
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 6635
+SSH_AGENT_PID = 3867
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -225,7 +232,7 @@ GJS_DEBUG_OUTPUT = stderr
 # environment
 LANG = C
 # environment
-VSCODE_PID = 41848
+VSCODE_PID = 25254
 # variable set hash-table stats:
 # Load=107/1024=10%, Rehash=0, Collisions=12/132=9%
 
@@ -235,9 +242,9 @@ VSCODE_PID = 41848
 
 # Directories
 
-# . (device 66306, inode 13558161): 17 files, no impossibilities.
+# . (device 66306, inode 13558161): 20 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 20 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -321,12 +328,13 @@ install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 28 / storage = 236 B / avg = 8 B
-# current buf: size = 8162 B / used = 236 B / count = 28 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 31 / storage = 264 B / avg = 8 B
+# current buf: size = 8162 B / used = 264 B / count = 31 / avg = 8 B
 
-# strcache performance: lookups = 43 / hit rate = 34%
+# strcache performance: lookups = 46 / hit rate = 32%
+ 
 # hash-table stats:
-# Load=28/8192=0%, Rehash=0, Collisions=1/43=2%
-# Finished Make data base on Thu Jun 16 13:58:06 2022
+# Load=31/8192=0%, Rehash=0, Collisions=1/46=2%
+# Finished Make data base on Sat Jun 18 14:06:00 2022
 
  
